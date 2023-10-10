@@ -1,0 +1,16 @@
+#Writing a code to generate a half pyramid number pattern.
+A=int(input())
+#Sample Input:
+#5
+while range(A):
+  i=1
+  for i in range(1,A+1):
+      print(i,end="")
+  A=A-1
+  print("")
+#Sample Output:
+#12345
+#1234
+#123
+#12
+#1
